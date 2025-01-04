@@ -1,6 +1,85 @@
 * {
-    box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	border: none;
 }
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+address {
+  font-style: normal;
+}
+
+
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -90,6 +169,13 @@ ul {
     margin-bottom: 120px;
 }
 
+.back {
+    position: relative;
+    top: 332px;
+    z-index: -1;
+    padding-right: 78px;
+}
+
 .frame {
     margin-right: 298px;
     width: 599px;
@@ -97,32 +183,24 @@ ul {
 }
 
 .twobutt {
-    padding-left: 253px;
-    padding-right: 253px;
     display: flex;
     gap: 20px;
-    z-index: 1;
+    padding-left: 253px;
 }
 
-.mainmetro {
+.metrobox {
     border-radius: 25px;
     width: 697px;
     height: 263px;
     box-shadow: 0 0 50px 0 #f2f2f2;
     display: flex;
-    gap: 175px;
+    background-color:#FFFFFF;;
 }
 
 .text {
     padding-top: 46px;
     padding-left: 39px;
     padding-bottom: 59px;
-}
-
-.svg-button {
-    border: none;
-    background: none;
-    padding: 58px 22px 165px 0px;
 }
 
 .headmetro {
@@ -134,22 +212,14 @@ ul {
 .headtext {
     font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 150%;
     color: #575757;
-    display: flex   ;
-    flex-wrap: nowrap;
 }
 
-.metroserv {
-    border-radius: 25px;
-    width: 697px;
-    height: 263px;
-    box-shadow: 0 0 50px 0 #f2f2f2;
-    display: flex;
-    gap: 175px;
-}
-
-.back {
-    position: absolute;
-    z-index: -1;
+.svg-button {
+    padding-top: 58px;
+    width: 40px;
+    height: 40px;   
+    padding-left: 74px;
+    padding-right: 38px;
 }
