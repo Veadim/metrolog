@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.wrapper {
+    background-color: #673A44;
+    max-height: 40px;
+    margin-bottom: 17px;
+    max-width: 1920px;
+    font-size: 12px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    color:#FFFFFF;
+    padding: 13px 0px 13px 253px;
+    margin: 0px;
+    display: flex;
+    gap: 41px
+}
+
+.header__login {
+    color: #FFFFFF;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding-right: 253px;
+}
+
+.header__icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    padding-left: 253px;
+}
+
+.metrocab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabinet {
+    padding-left: 253px;
+}
+
+.heading1 {
+    margin-top: 172px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100%;
+    margin-bottom: 28px;
+}
+
+
+.text1 {
+    width: 472px;
+    height: 108px;
+    margin-bottom: 51px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.button1 {
+    background-color: #843546;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 21px;
+    border: 1px solid #6a3b45;
+    border-radius: 6px;
+    padding: 10px;
+    width: 420px;
+    height: 72px;
+    margin-bottom: 120px;
+}
+
+.frame {
+    margin-right: 298px;
+    width: 599px;
+    height: 568px;
+}
+
+.twobutt {
+    padding-left: 253px;
+    padding-right: 253px;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.mainmetro {
+    border-radius: 25px;
+    width: 697px;
+    height: 263px;
+    box-shadow: 0 0 50px 0 #f2f2f2;
+    display: flex;
+    gap: 175px;
+}
+
+.text {
+    padding-top: 46px;
+    padding-left: 39px;
+    padding-bottom: 59px;
+}
+
+.svg-button {
+    border: none;
+    background: none;
+    padding: 58px 22px 165px 0px;
+}
+
+.headmetro {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.headtext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #575757;
+    display: flex   ;
+    flex-wrap: nowrap;
+}
+
+.metroserv {
+    border-radius: 25px;
+    width: 697px;
+    height: 263px;
+    box-shadow: 0 0 50px 0 #f2f2f2;
+    display: flex;
+    gap: 175px;
+}
+
+.back {
+    position: absolute;
+    z-index: -1;
+}
