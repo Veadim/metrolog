@@ -194,11 +194,12 @@ ul {
     height: 263px;
     box-shadow: 0 0 50px 0 #f2f2f2;
     display: flex;
-    background-color:#FFFFFF;;
+    background-color:#FFFFFF;
+    padding-top: 46px;
+    justify-content: space-between;
 }
 
 .text {
-    padding-top: 46px;
     padding-left: 39px;
     padding-bottom: 59px;
 }
@@ -217,9 +218,123 @@ ul {
 }
 
 .svg-button {
-    padding-top: 58px;
+    padding-top: 6px;
     width: 40px;
     height: 40px;   
-    padding-left: 74px;
-    padding-right: 38px;
+    right: 38px;
+    position: relative;
 }
+
+.heading2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 127%;
+    text-align: center;
+    color: #25090f;
+    margin: 100px;
+}
+
+.container3p { 
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    padding-right: 325px;
+    padding-left: 325px;
+    margin-bottom: 65px;
+}
+
+.contbox1 {
+    border-radius: 25px;
+    width: 410px;
+    height: 470px;
+    box-shadow: 0 0 50px 0 #f2f2f2;
+}
+
+.content1 {
+    padding-top: 51px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    margin-bottom: 31px;
+    padding: 0px;
+}
+
+.conthead {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.conttext {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #575757;
+}
+
+.oper {
+    text-align: center;
+    margin-bottom: 99px;
+}
+.oper1 {
+    border-radius: 25px;
+    width: 1126px;
+    height: 701px;
+    box-shadow: 0 0 50px 0 #f2f2f2;
+}
+
+.grey1 {
+    height: 1133px;
+    background: #f2f2f2;
+}
+
+.greybox1 {
+    display: flex;
+    align-items: center;
+    padding: 110px 253px 0px 253px;
+}
+
+.gb1text {
+  width: 769px;
+  height: 455px;
+}
+
+.gbox1 {
+    margin: 0px 0px 20px 0px;
+    text-align: left;
+}
+
+.gb1image {
+   
+    position: relative;
+}
+
+.promoimg {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.fourcard {
+    padding: 0px 322px 0px 253px;
+}
+
+.contentbox {
+    display: flex;
+    gap: 58px;
+}
+
+.boxtext {
+    width: 481px;
+    height: 138px;
+}
+
+.boxt {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
